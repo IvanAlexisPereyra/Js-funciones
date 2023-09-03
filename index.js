@@ -66,7 +66,7 @@ const frutas = ["Pera", "Naranja", "banana", "melon"]
 
 function tipoFrutas(arr) {
     for( let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
+        console.log(arr[i]);
     }
 }
 
@@ -79,7 +79,7 @@ const numeros = [5, 9, 15, 1, 43, 20, 96, 71, 26, 11]
 function menosQuinto(num) {
     for( let i = 0; i < num.length; i++) {
         if(i != 4 ){
-            console.log(num[i])
+            console.log(num[i]);
         }
     }
 }
@@ -92,7 +92,7 @@ const multi = [10, 6, 9, 2]
 
 function numeroMulti(x, y) {
     for( let i = 0; i < x.length; i++) {
-        console.log(x[i] * y)
+        console.log(x[i] * y);
     }
 }
 
